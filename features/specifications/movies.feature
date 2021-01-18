@@ -32,4 +32,11 @@ Esquema do Cenário: Adicionar avalição de um filme sem permissão
         | 123456 | 9.9  | 401 |
       
 
+Cenário: Validar contrato da requisição de detalhes
+    Dado a rota da API de detalhes de um filme com o id 464052
+    Quando realizar uma requisição do tipo GET 
+    Então a API irá retorna os dados do filme com o cod 200
+
+    
+
     
