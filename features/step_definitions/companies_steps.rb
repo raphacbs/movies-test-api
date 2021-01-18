@@ -1,4 +1,4 @@
-Dado("o {int} da compania") do |id|
+Dado("o {int} da companhia") do |id|
     $id = id
   end
   
