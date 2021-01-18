@@ -6,7 +6,7 @@ class Movies
         @options =  options
     end
     
-    def getById(id)
+    def get(id)
         url = "#{@options[:base_uri]}/movie/#{id}?api_key=#{@options[:api_key]}&language=#{@options[:language]}"    
         self.class.get(url)
     end
